@@ -1,0 +1,57 @@
+.App {
+  height: 100vh;
+}
+
+.App-header {
+}
+
+.App-header .logo {
+  color: white;
+  font-size: 24px;
+}
+
+.links:hover {
+  fill: lightblue;
+}
+
+.chat {
+  height: 85%;
+}
+
+.chat-box {
+  overflow-y: scroll;
+}
+
+.user-picture {
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+}
+
+.message .message-text {
+  background-color: lightslategray;
+  color: white;
+  border-radius: 10px;
+  max-width: 45%;
+  word-break: break-all;
+  word-wrap: break-word;
+  height: min-content;
+}
+
+.message.user {
+  flex-direction: row-reverse;
+}
+
+.message.user .message-text {
+  background-color: #007bff;
+}
+
+.input-message {
+  border-radius: 10px;
+}
+
+.send-btn.btn-outline-secondary:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
